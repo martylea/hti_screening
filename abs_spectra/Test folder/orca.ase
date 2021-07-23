@@ -1,0 +1,6 @@
+dict(charge=0,
+     maxiter=200,
+     mult=1,
+     orcablocks='%pal nprocs 4 end \n%tddft nroots 3 maxdim 10 end \n',
+     orcasimpleinput='pbe def2-SVP',
+     task='gradient')

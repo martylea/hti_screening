@@ -8,3 +8,4 @@ def tddft_input_gen(functional, basis, roots, xyz, procs):
               '* xyzfile 0 1 '+str(xyz)+' \n')
     inp.close()
 tddft_input_gen(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+print('Generated file: tddft_calc.inp')
