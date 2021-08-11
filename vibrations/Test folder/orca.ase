@@ -1,0 +1,6 @@
+dict(charge=0,
+     maxiter=200,
+     mult=1,
+     orcablocks='%pal nprocs 16 end \n',
+     orcasimpleinput='pbe def2-TZVP Numfreq',
+     task='gradient')
